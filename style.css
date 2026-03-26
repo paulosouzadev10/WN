@@ -221,6 +221,38 @@ body {
     transform: rotate(15deg);
 }
 
+.redes-sociais {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f4f4f4; /* Um cinza claro para destacar do fundo branco */
+}
+
+.redes-sociais h3 {
+    color: var(--primary-color); /* O seu azul marinho */
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.icones-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px; /* Espaço entre os ícones */
+}
+
+.icone-link {
+    font-size: 30px;
+    color: var(--primary-color);
+    transition: transform 0.3s, color 0.3s; /* Efeito suave ao passar o mouse */
+    text-decoration: none;
+}
+
+.icone-link:hover {
+    color: #b8860b; /* Muda para o dourado no hover */
+    transform: translateY(-5px); /* O ícone "sobe" um pouquinho */
+}
+
+
+
 /* --- RESPONSIVIDADE --- */
 @media (max-width: 1100px) {
     .hero-text h1 { font-size: 3rem; }
